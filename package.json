@@ -1,0 +1,19 @@
+{
+  "name": "contempt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "contempt": "contempt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.6.0",
+    "yargs": "^17.6.0"
+  },
+  "bin": {
+    "contempt": "./bin/index.js"
+  }
+}
