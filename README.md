@@ -102,3 +102,24 @@ $ contempt wait:2 type:Hello__World! key:enter
 ```bash
 $ contempt wait:3 key:t,control wait:1 type:google.com key:enter wait:4 type:contempt wait:1 key:enter
 ```
+
+## Using a Input File
+
+You can also use a file to store your commands, just pass the path to the file as the first argument.
+
+```bash
+$ contempt -i ./commands.txt
+```
+
+### Example Input File
+
+```txt
+# This is a comment
+WAIT 1
+KEY command
+TYPE npp
+KEY enter
+WAIT 1
+KEY n control
+TYPE I used to be an adventurer like you, but then I took an arrow in the knee.
+```

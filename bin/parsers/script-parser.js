@@ -19,6 +19,9 @@ class ScriptParser {
     }
     const lines = script.split("\n");
     for (const line of lines) {
+      if (line.startsWith("#")) {
+        continue; // Skip comment lines
+      }
       const command = this.parseLine(line);
       if (command) {
         this.commands.push(command);
