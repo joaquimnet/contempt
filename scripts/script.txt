@@ -1,0 +1,6 @@
+WAIT 1
+CLICK
+MOVE 100 200
+MOUSEPOS
+TYPE Hello, World!
+KEY a control

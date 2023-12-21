@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "contempt": "contempt"
+    "contempt": "contempt",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
   },
   "bin": {
     "contempt": "./bin/index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

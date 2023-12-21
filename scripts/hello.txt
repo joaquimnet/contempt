@@ -1,0 +1,7 @@
+WAIT 1
+KEY command
+TYPE npp
+KEY enter
+WAIT 1
+KEY n control
+TYPE I used to be an adventurer like you, but then I took an arrow in the knee.
