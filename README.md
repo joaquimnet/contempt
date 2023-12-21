@@ -105,7 +105,7 @@ $ contempt wait:3 key:t,control wait:1 type:google.com key:enter wait:4 type:con
 
 ## Using a Input File
 
-You can also use a file to store your commands, just pass the path to the file as the first argument.
+You can also use a file to store your commands, just pass the `-i` flag and the path to the file.
 
 ```bash
 $ contempt -i ./commands.txt
